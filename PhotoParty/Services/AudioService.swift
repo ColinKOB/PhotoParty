@@ -1,5 +1,7 @@
 import Foundation
 import AVFoundation
+import AudioToolbox
+import UIKit
 
 class AudioService {
     static let shared = AudioService()
