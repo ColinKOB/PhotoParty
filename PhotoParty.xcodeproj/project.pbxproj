@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000000000000000000001 /* PhotoPartyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000001 /* PhotoPartyApp.swift */; };
+		000000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000002 /* ContentView.swift */; };
+		000000000000000000000003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000003 /* Assets.xcassets */; };
+		000000000000000000000004 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000004 /* Player.swift */; };
+		000000000000000000000005 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000005 /* Game.swift */; };
+		000000000000000000000006 /* Prompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000006 /* Prompt.swift */; };
+		000000000000000000000007 /* Submission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000007 /* Submission.swift */; };
+		000000000000000000000008 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000008 /* GameViewModel.swift */; };
+		000000000000000000000009 /* MultipeerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000009 /* MultipeerService.swift */; };
+		00000000000000000000000A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000A /* HomeView.swift */; };
+		00000000000000000000000B /* LobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000B /* LobbyView.swift */; };
+		00000000000000000000000C /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000C /* GameView.swift */; };
+		00000000000000000000000D /* VotingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000D /* VotingView.swift */; };
+		00000000000000000000000E /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000E /* ResultsView.swift */; };
+		00000000000000000000000F /* PhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000F /* PhotoPickerView.swift */; };
+		000000000000000000000010 /* PromptService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000010 /* PromptService.swift */; };
+		000000000000000000000011 /* AudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000011 /* AudioService.swift */; };
+		000000000000000000000012 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000012 /* Extensions.swift */; };
+		000000000000000000000013 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000013 /* Constants.swift */; };
+		000000000000000000000014 /* Prompts.json in Resources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000014 /* Prompts.json */; };
+		000000000000000000000015 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000015 /* Components.swift */; };
+		000000000000000000000016 /* JoinGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000016 /* JoinGameView.swift */; };
+		000000000000000000000017 /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000017 /* GameSettings.swift */; };
+		000000000000000000000018 /* FinalResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000018 /* FinalResultsView.swift */; };
+		000000000000000000000019 /* PlayerAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000019 /* PlayerAvatarView.swift */; };
+		00000000000000000000001A /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001A /* TimerView.swift */; };
+		00000000000000000000001B /* PhotoRevealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001B /* PhotoRevealView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		200000000000000000000001 /* PhotoParty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoParty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		100000000000000000000001 /* PhotoPartyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPartyApp.swift; sourceTree = "<group>"; };
+		100000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		100000000000000000000003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		100000000000000000000004 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		100000000000000000000005 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		100000000000000000000006 /* Prompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompt.swift; sourceTree = "<group>"; };
+		100000000000000000000007 /* Submission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Submission.swift; sourceTree = "<group>"; };
+		100000000000000000000008 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		100000000000000000000009 /* MultipeerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerService.swift; sourceTree = "<group>"; };
+		10000000000000000000000A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		10000000000000000000000B /* LobbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyView.swift; sourceTree = "<group>"; };
+		10000000000000000000000C /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		10000000000000000000000D /* VotingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingView.swift; sourceTree = "<group>"; };
+		10000000000000000000000E /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		10000000000000000000000F /* PhotoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerView.swift; sourceTree = "<group>"; };
+		100000000000000000000010 /* PromptService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptService.swift; sourceTree = "<group>"; };
+		100000000000000000000011 /* AudioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioService.swift; sourceTree = "<group>"; };
+		100000000000000000000012 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		100000000000000000000013 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		100000000000000000000014 /* Prompts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Prompts.json; sourceTree = "<group>"; };
+		100000000000000000000015 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		100000000000000000000016 /* JoinGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinGameView.swift; sourceTree = "<group>"; };
+		100000000000000000000017 /* GameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
+		100000000000000000000018 /* FinalResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalResultsView.swift; sourceTree = "<group>"; };
+		100000000000000000000019 /* PlayerAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerAvatarView.swift; sourceTree = "<group>"; };
+		10000000000000000000001A /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		10000000000000000000001B /* PhotoRevealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRevealView.swift; sourceTree = "<group>"; };
+		100000000000000000000020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		300000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		400000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				400000000000000000000002 /* PhotoParty */,
+				400000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		400000000000000000000002 /* PhotoParty */ = {
+			isa = PBXGroup;
+			children = (
+				400000000000000000000004 /* App */,
+				400000000000000000000005 /* Models */,
+				400000000000000000000006 /* ViewModels */,
+				400000000000000000000007 /* Views */,
+				400000000000000000000008 /* Services */,
+				400000000000000000000009 /* Utilities */,
+				40000000000000000000000A /* Resources */,
+				100000000000000000000020 /* Info.plist */,
+			);
+			path = PhotoParty;
+			sourceTree = "<group>";
+		};
+		400000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000001 /* PhotoParty.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		400000000000000000000004 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000001 /* PhotoPartyApp.swift */,
+				100000000000000000000002 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		400000000000000000000005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000004 /* Player.swift */,
+				100000000000000000000005 /* Game.swift */,
+				100000000000000000000006 /* Prompt.swift */,
+				100000000000000000000007 /* Submission.swift */,
+				100000000000000000000017 /* GameSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		400000000000000000000006 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000008 /* GameViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		400000000000000000000007 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				10000000000000000000000A /* HomeView.swift */,
+				100000000000000000000016 /* JoinGameView.swift */,
+				10000000000000000000000B /* LobbyView.swift */,
+				10000000000000000000000C /* GameView.swift */,
+				10000000000000000000000F /* PhotoPickerView.swift */,
+				10000000000000000000001B /* PhotoRevealView.swift */,
+				10000000000000000000000D /* VotingView.swift */,
+				10000000000000000000000E /* ResultsView.swift */,
+				100000000000000000000018 /* FinalResultsView.swift */,
+				40000000000000000000000B /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		40000000000000000000000B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000015 /* Components.swift */,
+				100000000000000000000019 /* PlayerAvatarView.swift */,
+				10000000000000000000001A /* TimerView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		400000000000000000000008 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000009 /* MultipeerService.swift */,
+				100000000000000000000010 /* PromptService.swift */,
+				100000000000000000000011 /* AudioService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		400000000000000000000009 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000012 /* Extensions.swift */,
+				100000000000000000000013 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		40000000000000000000000A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000003 /* Assets.xcassets */,
+				100000000000000000000014 /* Prompts.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		500000000000000000000001 /* PhotoParty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 600000000000000000000001 /* Build configuration list for PBXNativeTarget "PhotoParty" */;
+			buildPhases = (
+				500000000000000000000002 /* Sources */,
+				300000000000000000000001 /* Frameworks */,
+				500000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoParty;
+			productName = PhotoParty;
+			productReference = 200000000000000000000001 /* PhotoParty.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		700000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					500000000000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 600000000000000000000002 /* Build configuration list for PBXProject "PhotoParty" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 400000000000000000000001;
+			productRefGroup = 400000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				500000000000000000000001 /* PhotoParty */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		500000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000003 /* Assets.xcassets in Resources */,
+				000000000000000000000014 /* Prompts.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		500000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000001 /* PhotoPartyApp.swift in Sources */,
+				000000000000000000000002 /* ContentView.swift in Sources */,
+				000000000000000000000004 /* Player.swift in Sources */,
+				000000000000000000000005 /* Game.swift in Sources */,
+				000000000000000000000006 /* Prompt.swift in Sources */,
+				000000000000000000000007 /* Submission.swift in Sources */,
+				000000000000000000000008 /* GameViewModel.swift in Sources */,
+				000000000000000000000009 /* MultipeerService.swift in Sources */,
+				00000000000000000000000A /* HomeView.swift in Sources */,
+				00000000000000000000000B /* LobbyView.swift in Sources */,
+				00000000000000000000000C /* GameView.swift in Sources */,
+				00000000000000000000000D /* VotingView.swift in Sources */,
+				00000000000000000000000E /* ResultsView.swift in Sources */,
+				00000000000000000000000F /* PhotoPickerView.swift in Sources */,
+				000000000000000000000010 /* PromptService.swift in Sources */,
+				000000000000000000000011 /* AudioService.swift in Sources */,
+				000000000000000000000012 /* Extensions.swift in Sources */,
+				000000000000000000000013 /* Constants.swift in Sources */,
+				000000000000000000000015 /* Components.swift in Sources */,
+				000000000000000000000016 /* JoinGameView.swift in Sources */,
+				000000000000000000000017 /* GameSettings.swift in Sources */,
+				000000000000000000000018 /* FinalResultsView.swift in Sources */,
+				000000000000000000000019 /* PlayerAvatarView.swift in Sources */,
+				00000000000000000000001A /* TimerView.swift in Sources */,
+				00000000000000000000001B /* PhotoRevealView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		800000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		800000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		800000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoParty/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PhotoParty;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "PhotoParty uses your local network to connect with other players for multiplayer games.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "PhotoParty needs access to your photo library so you can select photos to share during the game.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.photoparty.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		800000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoParty/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PhotoParty;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "PhotoParty uses your local network to connect with other players for multiplayer games.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "PhotoParty needs access to your photo library so you can select photos to share during the game.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.photoparty.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		600000000000000000000001 /* Build configuration list for PBXNativeTarget "PhotoParty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800000000000000000000003 /* Debug */,
+				800000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		600000000000000000000002 /* Build configuration list for PBXProject "PhotoParty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800000000000000000000001 /* Debug */,
+				800000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 700000000000000000000001 /* Project object */;
+}
